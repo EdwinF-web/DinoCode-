@@ -1,15 +1,12 @@
-# =============================================================================
-# DINOCODE - ANALIZADOR LÉXICO (LEXER) v1.1
-# =============================================================================
+# DINOCODE - ANALIZADOR LÉXICO (LEXER) 
 # Este archivo reemplaza a: lexerCerregido7.py, Cadenas.py, Numeros.py,
 # operadores.py, ErroresLexicos.py y ValidacionesLexicas.py
 #
-# Decisiones congeladas:
+# Opciones que se tomaron en cuenta:
 #   - Comentarios: d> abre; <d cierra; sin <d en la línea -> hasta \n
 #   - Palabras reservadas: minúsculas, MAYÚSCULAS o Primera_mayúscula.
 #     La forma mixta arbitraria (hUeVo) NO es válida.
 #   - Forma canónica: si_ve, no_ve, o_ve, fin_si, fin_caza (guion bajo)
-#   - captura (no capturar), verdadero/falso (no cierto/falso)
 #   - Sin punto y coma (;)
 #   - rugir acepta con o sin paréntesis
 #   - : obligatorio tras haz y tras avanzar ...
